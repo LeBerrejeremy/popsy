@@ -101,8 +101,8 @@
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="{{path('theme1')}}">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                        <a class="portfolio-box" href="{{path('theme1')}}" onclick="window.open(this.href); return false;">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/theme1.png" alt="" style="height:329px;width:611px"/>
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Exemple de nos réalisations</div>
                                 <div class="project-name">Thème 1</div>
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
+                        <a class="portfolio-box" href="{{path('theme2')}}" onclick="window.open(this.href); return false;">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Exemple de nos réalisations</div>
@@ -119,7 +119,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
+                        <a class="portfolio-box" href="{{path('theme3')}}" onclick="window.open(this.href); return false;">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Exemple de nos réalisations</div>
